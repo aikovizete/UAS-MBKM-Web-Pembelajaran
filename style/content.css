@@ -1,0 +1,19 @@
+* {
+  font-family: sans-serif;
+}
+
+.btn-back {
+  padding: 5px;
+  color: white;
+  background-color: rgb(224, 148, 148);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-back:hover {
+  background-color: rgb(143, 95, 95);
+}
+
+.main-image {
+  padding: 10px 20px 0px;
+}

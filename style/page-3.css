@@ -1,0 +1,53 @@
+.main {
+  margin: 10% auto;
+  width: 500px;
+  height: 500px;
+}
+
+#title {
+  text-align: center;
+  font-size: larger;
+}
+
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+.answer {
+  margin: 20px auto;
+  background-color: rgb(124, 111, 213);
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+
+.answer:hover {
+  background-color: rgb(171, 160, 237);
+  cursor: pointer;
+}
+
+#btn {
+  color: white;
+  background-color: rgb(171, 160, 237);
+  width: 100px;
+  height: 25px;
+  margin-top: 50px;
+  margin-left: 70%;
+  border-radius: 10px;
+  border-width: 0px;
+}
+
+.btn-back {
+  padding: 5px;
+  color: white;
+  background-color: rgb(124, 111, 213);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-back:hover {
+  background-color: rgb(88, 67, 203);
+}

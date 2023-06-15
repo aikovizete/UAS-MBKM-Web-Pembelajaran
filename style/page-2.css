@@ -1,0 +1,114 @@
+*{
+  font-family: sans-serif;
+}
+
+.main-page {
+  display: flex;
+  padding-top: 100px;
+  justify-content: space-between;
+}
+
+.img-right {
+  width: 500px;
+}
+
+.menu h1 {
+  margin-top: 100px;
+}
+
+.btn-back {
+  padding: 5px;
+  color: white;
+  background-color:rgb(124, 111, 213);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-back:hover {
+  background-color: rgb(124, 111, 213);
+}
+
+.box-primary {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(124, 111, 213);
+  width: 20%;
+  margin: auto;
+  height: 80px;
+  border-radius: 45px;
+  columns: #f9fbe7;
+}
+
+.box-primary:hover {
+  background-color: rgb(84, 66, 205);
+}
+
+.box-secondary {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(124, 111, 213);
+  width: 20%;
+  margin: 10px auto;
+  height: 80px;
+  border-radius: 45px;
+  color: #f9fbe7;
+}
+
+.box-secondary:hover {
+  background-color: rgb(84, 66, 205);
+}
+
+.box-tertiary {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(124, 111, 213);
+  width: 20%;
+  margin: 10px auto;
+  height: 80px;
+  border-radius: 45px;
+  color: #f9fbe7;
+}
+
+.box-tertiary:hover {
+  background-color: rgb(84, 66, 205);
+}
+
+.home-image {
+  width: 700px;
+  height: 700px;
+}
+
+.box-quiz {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(123, 106, 234);
+  width: 20%;
+  margin: 10px auto;
+  height: 80px;
+  border-radius: 45px;
+  color: #f9fbe7;
+}
+
+.navbar {
+  position: absolute;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  float: right;
+}
+
+.navbar li {
+  background-color: rgb(124, 111, 213);
+  color: white;
+  padding: 5px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar li:hover {
+  background-color: rgb(94, 77, 205);
+  cursor: pointer;
+}
